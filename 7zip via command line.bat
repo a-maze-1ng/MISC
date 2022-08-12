@@ -6,8 +6,10 @@ cd C:\Program Files\7-Zip
 
 REM #########################################
 REM add files or directory to a .zip file
-REM -tzip -> Type of archive -> zip
-REM -r -> Recurse subdirectories
+REM a = add to archive
+REM e = extract from archive
+REM -tzip = Type of archive = zip
+REM -r = Recurse subdirectories
 REM 7z a -tzip -r "DESTINATION.zip" "SOURCE"
 REM #########################################
 
