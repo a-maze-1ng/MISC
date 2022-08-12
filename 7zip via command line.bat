@@ -1,22 +1,22 @@
-REM #########################################
-REM change to the 7-zip install directory
-REM #########################################
+:: #########################################
+:: change to the 7-zip install directory
+:: #########################################
 
 cd C:\Program Files\7-Zip
 
-REM #########################################
-REM add files or directory to a .zip file
-REM a = add to archive
-REM e = extract from archive
-REM -tzip = Type of archive = zip
-REM -r = Recurse subdirectories
-REM 7z a -tzip -r "DESTINATION.zip" "SOURCE"
-REM #########################################
+:: #########################################
+:: add files or directory to a .zip file
+:: a = add to archive
+:: e = extract from archive
+:: -tzip = Type of archive = zip
+:: -r = Recurse subdirectories
+:: 7z a -tzip -r "DESTINATION.zip" "SOURCE"
+:: #########################################
 
 7z a -tzip -r "C:\Users\XYZ\Desktop\files.zip" "C:\Users\XYZ\Desktop\IMPORTANT_DIR_OR_FILE"
 
-REM #########################################
-REM Pause the script to check for possible errors
-REM #########################################
+:: #########################################
+:: Pause the script to check for possible errors
+:: #########################################
 
 pause
