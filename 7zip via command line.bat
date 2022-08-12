@@ -16,7 +16,7 @@ cd C:\Program Files\7-Zip
 7z a -tzip -r "C:\Users\XYZ\Desktop\files.zip" "C:\Users\XYZ\Desktop\IMPORTANT_DIR_OR_FILE"
 
 :: #########################################
-:: Pause the script to check for possible errors
+:: pause the script to check for possible errors
 :: #########################################
 
 pause
