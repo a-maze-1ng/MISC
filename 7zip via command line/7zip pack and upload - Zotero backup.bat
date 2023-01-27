@@ -19,11 +19,11 @@ cd C:\Program Files\7-Zip
 :: -r = Recurse subdirectories
 :: 7z a -tzip -r "DESTINATION.zip" "SOURCE"
 :: #########################################
-:: example:
-:: 7z a -tzip -r "C:\Users\USER\Documents\Backup.zip" "C:\Users\USER\Desktop\"
+:: example add everything located in folder C:\Users\1\Zotero into a zip file:
+:: 7z a -tzip "C:\Users\1\Documents\001 - Backup Zotero\Zotero.zip" "C:\Users\1\Zotero\*"
 :: #########################################
 
-7z a -tzip -r "C:\Users\1\Documents\001 - Backup Zotero\Zotero.zip" "C:\Users\1\Zotero\"
+7z a -tzip "C:\Users\1\Documents\001 - Backup Zotero\Zotero.zip" "C:\Users\1\Zotero\*"
 
 :: #########################################
 :: copy file to cloud storage folder
