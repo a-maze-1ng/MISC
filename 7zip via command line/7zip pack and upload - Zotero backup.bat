@@ -19,7 +19,8 @@ cd C:\Program Files\7-Zip
 :: -r = Recurse subdirectories
 :: 7z a -tzip -r "DESTINATION.zip" "SOURCE"
 :: #########################################
-:: example add everything located in folder C:\Users\1\Zotero into a zip file:
+:: Destination: C:\Users\1\Documents\001 - Backup Zotero\Zotero.zip
+:: Source: C:\Users\1\Zotero\* (everything located in this folder)
 :: 7z a -tzip "C:\Users\1\Documents\001 - Backup Zotero\Zotero.zip" "C:\Users\1\Zotero\*"
 :: #########################################
 
