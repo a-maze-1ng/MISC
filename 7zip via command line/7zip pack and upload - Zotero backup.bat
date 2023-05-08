@@ -2,7 +2,7 @@
 :: user input
 :: #########################################
 @echo off
-echo set drive letter of the cloude storage (e.g. "G")
+echo set drive letter of the cloude storage (e.g. "I")
 set /p cloud_storage=
 echo:
 
@@ -71,14 +71,14 @@ xcopy "%zip_buffer_location%" "%cloud_storage%%cloud_path%" /s /y
 :: delete old zotero.zip
 :: #########################################
 del /f "%zip_buffer_location%"
-
-:: #########################################
-:: pause the script to check for possible errors
-:: #########################################
+goto ende
 
 :nein
 echo Abbruch!
 goto ende
 
 :ende
+:: #########################################
+:: pause the script to check for possible errors
+:: #########################################
 pause
